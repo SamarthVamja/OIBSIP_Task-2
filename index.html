@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Website</title>
+
+	<link rel="stylesheet" type="text/css" href=" style.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!----header--->
+	<header>
+		<a href="#" class="logo">Samarth <span>Vamja</span></a>
+
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+
+		<div class="bx bx-menu" id="menu-icon"> </div>
+	</header>
+
+	<!----home section--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1>Samarth Vamja</h1>
+			<h3>Web<span> Developer.</span></h3>
+			<div class="button">
+				<a href="#" class="btn">Say Hello</a>
+				<a href="#" class="btn2"><span><i class='bx bx-play'></i></span>Watch My Work</a>
+			</div>
+		</div>
+	</section> <hr>
+
+	<!----about section--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Creative Web Developer!</h4>
+			<p>I am currently Student and Web Developer. Currently, I am studying in Bachelor Degree specialized in Information Technology. I have so many programming skills. My skills have HTML,CSS,Javascript,Python,Java,SQL,etc. I have deep interest in Web Development and Python as well as in Database.</p>
+			<a href="#" class="btn">More About Me</a>
+		</div>
+	</section><hr>
+
+	<!----service section--->
+	<section class="services" id="services">
+		<div class="main-text">
+			<p>What I am Expert In</p>
+			<h2><span>My</span> Services</h2>
+		</div>
+
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-mobile-alt' ></i>
+				</div>
+				<h3>Web Design</h3>
+				<p>One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy.</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-code-alt' ></i>
+				</div>
+				<h3>Web Development</h3>
+				<p>One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy.</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-edit-alt' ></i>
+				</div>
+				<h3>Creative Design</h3>
+				<p>One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy.</p>
+				<a href="#" class="read">Read More</a>
+			</div>
+		</div>
+	</section><hr>
+
+	<!----portfolio section--->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<p>Portfolio</p>
+			<h2><span>Latest</span> Project</h2>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="img/portfolio1.jpg">
+				<div class="layer">
+					<h5>Fake News Detection</h5>
+					<p>It was based on Machine Learning and Python Libraries.</p>
+				</div>
+			</div>
+			<div class="row">
+				<img src="img/portfolio2.jpg">
+				<div class="layer">
+					<h5>Online Banking System</h5>
+					<p>It was based on HTML,CSS,Javascript,PHP and SQL(Database).</p>
+				</div>
+			</div>
+			<div class="row">
+				<img src="img/portfolio3.jpg">
+				<div class="layer">
+					<h5>Quora for College</h5>
+					<p>It was based on ReactJS,NodeJS,Material UI and MongoDB(Database).</p>
+				</div>
+			</div>
+			<div class="row">
+				<img src="img/portfolio4.jpg">
+				<div class="layer">
+					<h5>Realtime Chat App</h5>
+					<p>It was based on ReactJS,NodeJS,Material UI,Socket and MongoDB(Database).</p>
+				</div>
+			</div>
+		</div>
+	</section><hr>
+
+	<!----contact section--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact <span>Me!</span></h2>
+			<h4>If You Have Any Project In Your Mind.</h4>
+			<p>I'm a Web Developer - creating bold & brave websites for companies all across the world.</p>
+			<div class="list">
+				<li><a href="#">+91 9812367841</a></li>
+				<li><a href="#">samarth1234@gmail.com</a></li>
+			</div>
+			<div class="contact-icons">
+				<a href="#"><i class='bx bxl-facebook' ></i></a>
+				<a href="#"><i class='bx bxl-twitter' ></i></a>
+				<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+				<a href="#"><i class='bx bxl-youtube' ></i></a>
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<form action="">
+				<input type="name" placeholder="Your Name" required>
+				<input type="email" placeholder="Your Email Address" required>
+				<input type="" placeholder="Your Mobile Number" required>
+				<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+				<input type="submit" value="Send Message" class="submit" required>
+			</form>
+		</div>
+	</section>
+
+	<!----end section--->
+	<section class="end">
+		<div class="last-text">
+			<p>Copyright &copy; 2022 by Samarth Vamja All Rights Reserved.</p>
+		</div>
+	</section>
+
+</body>
+</html>
